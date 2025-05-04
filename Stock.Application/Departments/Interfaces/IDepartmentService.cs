@@ -1,10 +1,11 @@
-﻿using Stock.Domain.Departments.Entities;
+﻿using Stock.Application.Departments.Dtos;
+using Stock.Domain.Departments.Entities;
 
 namespace Stock.Application.Departments.Interfaces
 {
     public interface IDepartmentService
     {
-        Task<List<Department>> GetDepartmentsAsync();
+        Task<List<GetDepartmentDto>> GetDepartmentsAsync();
         Task<Department?> GetDepartmentByIdAsync(int id);
     }
 }
