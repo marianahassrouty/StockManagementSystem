@@ -1,4 +1,5 @@
-using Microsoft.AspNetCore.Builder;
+using Stock.Application.Departments.Interfaces;
+using Stock.Application.Departments.Services;
 using Stock.Domain.Departments.Repository;
 using Stock.Infrastructure.Departments.Repsitories;
 
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
 var app = builder.Build();
 
