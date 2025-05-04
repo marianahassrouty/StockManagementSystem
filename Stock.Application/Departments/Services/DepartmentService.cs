@@ -7,9 +7,12 @@ namespace Stock.Application.Departments.Services;
 
 public class DepartmentService(IDepartmentRepository departmentRepository) : IDepartmentService
 {
-    public async Task<Department?> GetDepartmentByIdAsync(int id)
+    public async Task<GetDepartmentDto?> GetDepartmentByIdAsync(int id)
     {
-        return await departmentRepository.GetDepartmentByIdAsync(id);
+        var dep = await departmentRepository.GetDepartmentByIdAsync(id);
+
+        var depDto = new GetDepartmentDto(dep);
+        return depDto;
     }
 
     public async Task<List<GetDepartmentDto>> GetDepartmentsAsync()

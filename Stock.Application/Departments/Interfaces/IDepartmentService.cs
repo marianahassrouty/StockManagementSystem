@@ -6,6 +6,6 @@ namespace Stock.Application.Departments.Interfaces
     public interface IDepartmentService
     {
         Task<List<GetDepartmentDto>> GetDepartmentsAsync();
-        Task<Department?> GetDepartmentByIdAsync(int id);
+        Task<GetDepartmentDto?> GetDepartmentByIdAsync(int id);
     }
 }
