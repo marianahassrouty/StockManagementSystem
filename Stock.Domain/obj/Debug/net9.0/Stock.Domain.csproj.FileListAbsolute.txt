@@ -1,0 +1,12 @@
+C:\git\StockManagementSystem\Stock.Domain\bin\Debug\net9.0\Stock.Domain.deps.json
+C:\git\StockManagementSystem\Stock.Domain\bin\Debug\net9.0\Stock.Domain.dll
+C:\git\StockManagementSystem\Stock.Domain\bin\Debug\net9.0\Stock.Domain.pdb
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.AssemblyInfoInputs.cache
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.AssemblyInfo.cs
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.csproj.CoreCompileInputs.cache
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.sourcelink.json
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.dll
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\refint\Stock.Domain.dll
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\Stock.Domain.pdb
+C:\git\StockManagementSystem\Stock.Domain\obj\Debug\net9.0\ref\Stock.Domain.dll

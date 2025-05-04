@@ -1,8 +1,10 @@
-﻿namespace Stock.Domain.Items.Entities
+﻿using Stock.Domain.Departments.Entities;
+
+namespace Stock.Domain.Items.Entities
 {
     public class Item
     {
-        public int ItemId { get; set; }
+        public int Id { get; set; }
 
         public required string Name { get; set; }
 
@@ -15,5 +17,6 @@
         public string Image { get; set; }
 
         public int DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }
