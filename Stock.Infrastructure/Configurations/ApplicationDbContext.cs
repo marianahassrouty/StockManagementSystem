@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Stock.Domain.Departments.Entities;
 using Stock.Domain.Items.Entities;
+using Stock.Domain.Users.Entities;
 
 namespace Stock.Infrastructure.Configurations;
 
@@ -8,6 +9,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 {
     public DbSet<Department> Departments { get; set; }
     public DbSet<Item> Items { get; set; }
+    public DbSet<User> Users { get; set; } 
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

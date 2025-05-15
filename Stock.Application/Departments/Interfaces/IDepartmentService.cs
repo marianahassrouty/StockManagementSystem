@@ -1,5 +1,4 @@
 ﻿using Stock.Application.Departments.Dtos;
-using Stock.Domain.Departments.Entities;
 
 namespace Stock.Application.Departments.Interfaces
 {
@@ -7,5 +6,7 @@ namespace Stock.Application.Departments.Interfaces
     {
         Task<List<GetDepartmentDto>> GetDepartmentsAsync();
         Task<GetDepartmentDto?> GetDepartmentByIdAsync(int id);
+        Task<bool> DeleteDepartmentAsync(int id);
+        Task<GetDepartmentDto?> UpdateDepartmentAsync(UpdateDepartmentDto dto);
     }
 }

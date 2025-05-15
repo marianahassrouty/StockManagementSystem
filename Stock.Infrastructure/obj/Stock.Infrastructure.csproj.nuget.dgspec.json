@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj": {}
+    "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\git\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj": {
+    "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj",
         "projectName": "Stock.Domain",
-        "projectPath": "C:\\git\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\StockManagementSystem\\Stock.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\git\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj": {
+    "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj",
         "projectName": "Stock.Infrastructure",
-        "projectPath": "C:\\git\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\StockManagementSystem\\Stock.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Infrastructure\\Stock.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mariana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mariana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\git\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj": {
-                "projectPath": "C:\\git\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj"
+              "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mariana\\Repo\\StockManagementSystem\\StockManagementSystemApi\\StockManagementSystem\\Stock.Domain\\Stock.Domain.csproj"
               }
             }
           }
@@ -113,12 +113,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -132,6 +136,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[9.0.4, )"
             },
@@ -156,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

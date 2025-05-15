@@ -14,3 +14,4 @@ namespace Stock.Domain.Departments.Entities
 
     }
 }
+    
